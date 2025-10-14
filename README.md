@@ -16,7 +16,12 @@ It displays yearly statistics of the University of Management and Technology (UM
 - Pandas
 - Dash Bootstrap Components
 
+## 🖼️ Dashboard Preview
+![Dashboard Screenshot](umt_dashboard.png)
+*(Fig: A preview of the UMT Dashboard interface)*
+
 - ## Author
 **Tahir Mehmood**  
 BS Data Science | UMT Lahore  
 GitHub: [Tahir0806](https://github.com/Tahir0806)
+
