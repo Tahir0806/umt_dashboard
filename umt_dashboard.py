@@ -2,7 +2,6 @@ import pandas as pd
 import plotly.express as px
 from dash import Dash, html, dcc,Input,Output
 import dash_bootstrap_components as dbc
-import matplotlib.pyplot as plt
 
 df = pd.read_excel("umt_stats01.xlsx")
 
