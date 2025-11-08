@@ -22,6 +22,7 @@ It displays yearly statistics of the University of Management and Technology (UM
 
 - ## Author
 **Tahir Mehmood**  
-BS Data Science | UMT Lahore  
-GitHub: [Tahir0806](https://github.com/Tahir0806)
+BS Data Science | UMT Lahore
+Email: tahir.dsofficial@gmail.com
+
 
