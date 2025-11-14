@@ -130,24 +130,23 @@ app.layout = dbc.Container([
                             style={"padding":"0"}),
                 className="mt-4",
                 style={"background":"linear-gradient(100deg, #08335e,#325f8a)","borderRadius": "10px",
-                       "width": "650px","height":"216px","marginBottom": "8px",
-                       "marginLeft": "-280px"}
+                       "width": "650px","height":"216px","marginBottom": "8px"}
             ),
             dbc.Card(
                 dbc.CardBody(dcc.Graph(figure=bar_chart),
                              style={"padding":"0"}),
                 style={"background":"linear-gradient(100deg,#325f8a,#08335e)","borderRadius": "10px",
-                       "width": "650px","height":"216px","marginLeft": "-280px"}
-            )], width="auto"),
+                       "width": "650px","height":"216px"}
+            )]),
         dbc.Col(
             dbc.Card(
                 dbc.CardBody(dcc.Graph(figure=pie_chart),
                              style={"padding":"1px"}),
                 className="mt-4",
                 style={"background":"linear-gradient(100deg, #08335e,#325f8a)", "borderRadius": "10px",
-                       "width": "350px","height": "440px","marginLeft": "-18px"}
-            ), width="auto")
-    ],className="d-flex justify-content-end")
+                       "width": "300px","height": "440px"}
+            ))
+    ],className="g-4")
     
 ], fluid=True, style={"backgroundColor": "#1A2633", "minHeight": "100vh", "padding": "20px"})
 
@@ -191,4 +190,5 @@ def update_research_papers(selected_year):
     ]
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=False)
+
